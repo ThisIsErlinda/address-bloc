@@ -1,4 +1,5 @@
 RSpec.describe Entry do
+require_relative "../models/entry.rb"
     context "attributes" do
         it "should respond to name" do
             entry = Entry.new('Ada Lovelace', '010.012.1815', 'augusta.king@lovelace.com')
